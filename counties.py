@@ -21,6 +21,7 @@ with open(filename) as country_file:
         }
         #print(country_dict)
         countries[country.casefold()] = country_dict
+        countries[code.casefold()] = country_dict
 
 print(countries)
 
